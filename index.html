@@ -220,21 +220,21 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="Ονοματεπώνυμο *" required="required" data-validation-required-message="Παρακαλώ γράψτε το ονοματεπώνυμό σας">
+                  <input class="form-control" name="name" id="name" type="text" placeholder="Ονοματεπώνυμο *" required="required" data-validation-required-message="Παρακαλώ γράψτε το ονοματεπώνυμό σας">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Παρακαλώ γράψτε τη διεύθυνση email σας">
+                  <input class="form-control" name="email" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Παρακαλώ γράψτε τη διεύθυνση email σας">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="phone" type="tel" placeholder="Τηλέφωνο *" required="required" data-validation-required-message="Παρακαλώ γράψτε το τηλέφωνό σας">
+                  <input class="form-control" name="phone" id="phone" type="tel" placeholder="Τηλέφωνο *" required="required" data-validation-required-message="Παρακαλώ γράψτε το τηλέφωνό σας">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <textarea class="form-control" id="message" placeholder="Μήνυμα *" required="required" data-validation-required-message="Αφήστε το μήνυμά σας"></textarea>
+                  <textarea class="form-control" name="message" id="message" placeholder="Μήνυμα *" required="required" data-validation-required-message="Αφήστε το μήνυμά σας"></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -242,6 +242,7 @@
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
                 <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">ΑΠΟΣΤΟΛΗ ΜΗΝΥΜΑΤΟΣ</button>
+                <button type="submit">Send Test</button>
               </div>
             </div>
           </form>
